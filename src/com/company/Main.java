@@ -56,10 +56,18 @@ public class Main {
             System.out.println("num4 is equal to num5");
         }
 
-        while(true){
-            Random random = new Random();
-            int nextInt(args.length);
+        Random random = new Random();
 
+        while(true){
+            int index = random.nextInt(args.length);
+            if(args[index].equals("quit")){
+                System.out.println("quit has been found!");
+                break;
+            } else {
+                System.out.println("did not find quit...");
+            }
         }
+
+
     }
 }
