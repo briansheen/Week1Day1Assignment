@@ -61,10 +61,10 @@ public class Main {
         while(true){
             int index = random.nextInt(args.length);
             if(args[index].equals("quit")){
-                System.out.println("quit has been found!");
+                System.out.println("quit has been found..." + index);
                 break;
             } else {
-                System.out.println("did not find quit...");
+                System.out.println("did not find quit..." + index);
             }
         }
 
